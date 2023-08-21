@@ -299,7 +299,7 @@ class MyServer(BaseHTTPRequestHandler):
                             </div>
                         </div>
                 </div>
-                <div class="col-6">
+                <div class="col-4">
                     <form>
                       <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">E-mail</label>
@@ -314,13 +314,12 @@ class MyServer(BaseHTTPRequestHandler):
                     </form>
                 </div>
             </div>
-            <div class="row">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                    <div class="card-header py-3">
+                <div class="card rounded-1 shadow-sm">
+                    <div class="card-header py-1">
                         <h4 class="my-0 fw-normal">F.A.Q</h4>
                     </div>
                     <div class="card-body">
-                        <p class="d-inline-flex gap-1">
+                        <p class="d-inline-flex gap-2">
                           <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                             Как купить?
                           </button>
