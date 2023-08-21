@@ -314,38 +314,41 @@ class MyServer(BaseHTTPRequestHandler):
                     </form>
                 </div>
             </div>
-                <div class="card rounded-1 shadow-sm">
-                    <div class="card-header py-1">
-                        <h4 class="my-0 fw-normal">F.A.Q</h4>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card rounded-1 shadow-sm">
+                        <div class="card-header py-1">
+                            <h4 class="my-0 fw-normal">F.A.Q</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="d-inline-flex gap-2">
+                              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Как купить?
+                              </button>
+                              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                                Как доставить?
+                              </button>
+                              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Какая гарантия?
+                              </button>
+                            </p>
+                            <div class="collapse" id="collapseExample">
+                              <div class="card card-body">
+                                Преимущественно за деньги
+                              </div>
+                            </div>
+                            <div class="collapse" id="collapseExample1">
+                              <div class="card card-body">
+                                У нас самый большой парк гужевых повозок
+                              </div>
+                            </div>
+                            <div class="collapse" id="collapseExample2">
+                              <div class="card card-body">
+                                Какая ещё гарантия?
+                              </div>
+                            </div>
+                        </div>              
                     </div>
-                    <div class="card-body">
-                        <p class="d-inline-flex gap-2">
-                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            Как купить?
-                          </button>
-                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-                            Как доставить?
-                          </button>
-                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                            Какая гарантия?
-                          </button>
-                        </p>
-                        <div class="collapse" id="collapseExample">
-                          <div class="card card-body">
-                            Преимущественно за деньги
-                          </div>
-                        </div>
-                        <div class="collapse" id="collapseExample1">
-                          <div class="card card-body">
-                            У нас самый большой парк гужевых повозок
-                          </div>
-                        </div>
-                        <div class="collapse" id="collapseExample2">
-                          <div class="card card-body">
-                            Какая ещё гарантия?
-                          </div>
-                        </div>
-                    </div>              
             </div>
             <div class="row">
                 <table class="table table-striped">
@@ -366,7 +369,7 @@ class MyServer(BaseHTTPRequestHandler):
                       <td>$1000</td>
                       <td>12</td>
                       <td>$2000</td>
-                      <td>shipping</td>
+                      <td class="alert alert-primary" role="alert">new</td>        
                     </tr>
                     <tr>
                       <th scope="row">2</th>
