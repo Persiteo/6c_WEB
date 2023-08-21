@@ -295,7 +295,7 @@ class MyServer(BaseHTTPRequestHandler):
                                     Email support,
                                     Help center access
                                 </p>
-                                <button type="button" class="w-100 btn btn-lg btn-outline-primary btn-success">Купить</button>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-primary btn-success text-white">Купить</button>
                             </div>
                         </div>
                 </div>
@@ -316,37 +316,69 @@ class MyServer(BaseHTTPRequestHandler):
             </div>
             <div class="row">
                 <div class="card mb-4 rounded-3 shadow-sm">
-                            <div class="card-header py-3">
-                                <h4 class="my-0 fw-normal">F.A.Q</h4>
-                            </div>
-                            <div class="card-body">
-                                <p class="d-inline-flex gap-1">
-                                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                    Как купить?
-                                  </button>
-                                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-                                    Как доставить?
-                                  </button>
-                                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                                    Какая гарантия?
-                                  </button>
-                                </p>
-                                <div class="collapse" id="collapseExample">
-                                  <div class="card card-body">
-                                    Преимущественно за деньги
-                                  </div>
-                                </div>
-                                <div class="collapse" id="collapseExample1">
-                                  <div class="card card-body">
-                                    У нас самый большой парк гужевых повозок
-                                  </div>
-                                </div>
-                                <div class="collapse" id="collapseExample2">
-                                  <div class="card card-body">
-                                    Какая ещё гарантия?
-                                  </div>
-                                </div>
-                            </div>              
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">F.A.Q</h4>
+                    </div>
+                    <div class="card-body">
+                        <p class="d-inline-flex gap-1">
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Как купить?
+                          </button>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                            Как доставить?
+                          </button>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                            Какая гарантия?
+                          </button>
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                          <div class="card card-body">
+                            Преимущественно за деньги
+                          </div>
+                        </div>
+                        <div class="collapse" id="collapseExample1">
+                          <div class="card card-body">
+                            У нас самый большой парк гужевых повозок
+                          </div>
+                        </div>
+                        <div class="collapse" id="collapseExample2">
+                          <div class="card card-body">
+                            Какая ещё гарантия?
+                          </div>
+                        </div>
+                    </div>              
+            </div>
+            <div class="row">
+                <table class="table table-striped">
+                <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Название товара</th>
+                      <th scope="col">Цена за штуку</th>
+                      <th scope="col">Количество</th>
+                      <th scope="col">Итоговая сумма</th>
+                      <th scope="col">Статус заказа</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Canon Mark II</td>
+                      <td>$1000</td>
+                      <td>12</td>
+                      <td>$2000</td>
+                      <td>shipping</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                      <td>Mark</td>
+                      <td>Mark</td>
+                    </tr>                    
+                  </tbody>
+                </table>
             </div>
         </main>
     </div>
